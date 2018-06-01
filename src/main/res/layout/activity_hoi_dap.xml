@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoiDapActivity">
+
+
+
+       <EditText
+           android:id="@+id/ed_hoidap"
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:hint=" - Nhập vào tin của bạn"
+           android:layout_marginLeft="10dp"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/form_thong_tin_ca_nhan"
+           android:layout_alignParentBottom="true"
+           />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gui"
+           android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+
+            android:layout_toRightOf="@id/ed_hoidap" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/thongtincanhan"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_avatar"
+        android:background="@drawable/form_gui"
+        android:textSize="15sp"
+        android:layout_alignTop="@id/img_avatar"
+        android:text="djsahfkjehakfhadhfkaejhfkadhfkjahekhfkdhsakehfkhsadkfhsfhkeahf"/>
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_gui"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tx1"
+        android:layout_marginLeft="70dp"
+        android:text="djsahfkjehakfhadhfkaejhfkadhfkjahekhfkdhsakehfkhsadkfhsfhkeahf"/>
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_phan_hoi"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tx2"
+        android:layout_marginLeft="10dp"
+
+        android:text="djsahfkjehakfhadhfkaejhfkadhfkjahekhfkdhsakehfkhsadkfhsfhkeahf"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/thongtincanhan"
+        android:layout_below="@id/tx2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/tx3" />
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_phan_hoi"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tx3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="70dp"
+        android:text="djsahfkjehakfhadhfkaejhfkadhfkjahekhfkdhsakehfkhsadkfhsfhkeahf"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/thongtincanhan"
+        android:layout_below="@id/tx4"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tx5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_avatar3"
+        android:background="@drawable/form_gui"
+        android:textSize="15sp"
+        android:layout_below="@id/tx4"
+        android:layout_marginTop="10dp"
+        android:text="djsahfkjehakfhadhfkaejhfkadhfkjahekhfkdhsakehfkhsadkfhsfhkeahf"/>
+
+    <TextView
+        android:id="@+id/tx6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_avatar3"
+        android:background="@drawable/form_gui"
+        android:textSize="15sp"
+        android:layout_below="@id/tx5"
+        android:layout_marginTop="10dp"
+        android:text="djsahfkjehakfhadhfkaejhfkadhfkjahekhfkdhsakehfkhsadkfhsfhkeahf"/>
+</RelativeLayout>
+    
+
+

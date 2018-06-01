@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DanhSachKhoaHocActivity"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rl_img"
+            android:background="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/txAndroid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lập trình android từ cơ bản đến nâng cao"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_red_dark"/>
+                <TextView
+                    android:id="@+id/txAndroid2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txAndroid"
+                    android:text="Giảng viên: Hà Quang trung"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/darker_gray"/>
+                <TextView
+                    android:id="@+id/txAndroid3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txAndroid2"
+                    android:text="Thời gian:30 buổi - 3 tháng"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_green_light"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_img2"
+            android:background="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/rl_img"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/txIOS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lập trình android từ cơ bản đến nâng cao"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_red_dark"/>
+                <TextView
+                    android:id="@+id/txIOS2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txIOS"
+                    android:text="Giảng viên: Hà Quang trung"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/darker_gray"/>
+                <TextView
+                    android:id="@+id/txIOS3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txIOS2"
+                    android:text="Thời gian:30 buổi - 3 tháng"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_green_light"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_img3"
+            android:background="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/rl_img2"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/txKotlin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lập trình android từ cơ bản đến nâng cao"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_red_dark"/>
+                <TextView
+                    android:id="@+id/txKotlin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txKotlin"
+                    android:text="Giảng viên: Hà Quang trung"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/darker_gray"/>
+                <TextView
+                    android:id="@+id/txKotlin3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txKotlin2"
+                    android:text="Thời gian:30 buổi - 3 tháng"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_green_light"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_img4"
+            android:background="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/rl_img3"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/txWeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lập trình android từ cơ bản đến nâng cao"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_red_dark"/>
+                <TextView
+                    android:id="@+id/txWeb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txWeb"
+                    android:text="Giảng viên: Hà Quang trung"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/darker_gray"/>
+                <TextView
+                    android:id="@+id/txWeb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txWeb2"
+                    android:text="Thời gian:30 buổi - 3 tháng"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_green_light"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_img5"
+            android:background="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/rl_img4"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp">
+                <TextView
+                    android:id="@+id/txPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lập trình android từ cơ bản đến nâng cao"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_red_dark"/>
+                <TextView
+                    android:id="@+id/txPhoto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txPhoto"
+                    android:text="Giảng viên: Hà Quang trung"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/darker_gray"/>
+                <TextView
+                    android:id="@+id/txPhoto3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txPhoto2"
+                    android:text="Thời gian:30 buổi - 3 tháng"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_green_light"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+
+
+</RelativeLayout>

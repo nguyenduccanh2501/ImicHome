@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKiHocActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/form_dang_ki"
+        android:orientation="vertical"
+        >
+        <Spinner
+            android:id="@+id/sp_dangki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"></Spinner>
+
+        <EditText
+            android:id="@+id/edHovaten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint=" - Nhập vào họ và tên "
+            android:background="@drawable/form_edit_dang_ki"/>
+        <EditText
+            android:id="@+id/edSodienthoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint=" - Nhập vào số điện thoại "
+            android:background="@drawable/form_edit_dang_ki"/>
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint=" - Nhập vào Email "
+            android:background="@drawable/form_edit_dang_ki"/>
+
+        <RadioGroup
+            android:id="@+id/rd_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rbDangKiHoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Đăng kí học"
+                android:onClick="onRadioButton"/>
+            <RadioButton
+                android:id="@+id/rbHocThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Học thử miễn phí"
+                android:layout_marginLeft="50dp"
+                android:onClick="onRadioButton"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnDangKi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng kí"
+            android:layout_gravity="center"
+            android:background="@drawable/form_button_dang_ki"
+            android:textColor="#ffe319" />
+    </LinearLayout>
+</LinearLayout>
